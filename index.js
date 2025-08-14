@@ -13,7 +13,14 @@ if (true) {
     burgers.push(anotherNewBurger);
 }
 
+function changeFeaturedDrink () {
+    featuredDrink = "The JavaShake";
+}
+
 console.log(burgers);
 addBurger();
 console.log(burgers);
-console.log(featuredDrink)
+
+console.log(featuredDrink);
+changeFeaturedDrink();
+console.log(featuredDrink);
